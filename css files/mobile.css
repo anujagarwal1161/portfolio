@@ -1,0 +1,64 @@
+@media (max-width:768px)
+{
+    .list-item
+    {
+        background: none!important;
+        padding:10px 10px!important;
+    }
+    .para
+    {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .contact-me .font
+    {
+        font-size:30px;
+        padding:10px 10px;
+    }
+    .contact-me .me
+    {
+        display:none;
+    }
+    .details
+    {
+        display:flex;
+        padding:20px;
+        flex-direction: column;
+    }
+    .bot
+    {
+        padding-bottom:0px;
+    }
+    .timeline
+    {
+        display:flex;
+        flex-direction:column;
+        padding:20px;
+    }
+    .skill-main
+    {
+        display:flex;
+        flex-direction:column;
+        padding:20px;
+    }
+    .backend
+    {
+        width:95%;
+        margin-bottom:30px;
+    }
+    .all-projects
+    {
+        display:flex;
+        flex-direction: column;
+        padding:20px;
+        margin:0px;
+    }
+    .hotel
+    {
+        width:315px;
+        height:150px;
+        transition:all .5s ease;
+        -webkit-transition:all .5s ease;
+    }
+}
